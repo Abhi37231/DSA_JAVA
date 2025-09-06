@@ -1,0 +1,38 @@
+
+
+Question1:Flowcharttocalculatetheareaofacircle
+1: start
+
+2: input radius 
+
+3: area = 3.14* radius*2
+
+4: print area
+
+5: end
+Question2:Flowcharttofindthegreatestfrom2numbers.
+
+1: start
+
+2: input a , b
+
+3: if a > b print a;
+   else : print b;
+
+4: end
+
+
+Question3:FlowcharttoprinttheEvennumbersbetween9and100
+
+1: start 
+
+2: n = 1
+
+3: while n <= 100 do 
+    if n % 2 ==0 
+        print n 
+    else 
+     n+1
+4: end
+
+Question4:Flowchartforcalculatingtheaveragefrom25examscores
