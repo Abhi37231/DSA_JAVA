@@ -7,7 +7,7 @@ public class p {
 
 
         for(int i=0;i<j.length;i++){
-            for(int k=0;k<j.length;k++){
+            for(int k=0;k<j[i].length;k++){
                 if(j[i][k]>lv){
                     lv = j[i][k];
                 }
