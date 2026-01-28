@@ -1,10 +1,10 @@
 public class addInLinkedlist {
 
     public class Node{
-        int data;
         Node head;
+        int data;
 
-        
+
     }
 
 
