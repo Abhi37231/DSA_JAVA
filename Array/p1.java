@@ -1,3 +1,5 @@
+package Array;
+
 public class p1 {
     public static void update1(int mark[]){
         for(int i=0;i<mark.length;i++){

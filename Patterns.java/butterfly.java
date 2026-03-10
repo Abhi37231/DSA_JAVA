@@ -1,3 +1,4 @@
+
 public class butterfly{
     public static void butterfly_pattern(int n){
         for(int i=1;i<=n;i++){

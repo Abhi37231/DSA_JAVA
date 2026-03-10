@@ -1,4 +1,4 @@
-public class multiLevel{
+public class MultiLevel{
 
     public static void main(String[] args) {
         dog dobby = new  dog();

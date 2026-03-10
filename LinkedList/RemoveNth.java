@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class RemoveNth{
 
     public static class Node{

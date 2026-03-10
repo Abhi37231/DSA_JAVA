@@ -1,3 +1,4 @@
+
 public class AddInMiddle {
 
     public static class Node {

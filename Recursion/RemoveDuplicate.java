@@ -1,3 +1,5 @@
+package Recursion;
+
 import java.util.*;
 public class RemoveDuplicate {
     public static void removeDup(String str,int idx,StringBuilder newStr , boolean map ){
@@ -7,11 +9,11 @@ public class RemoveDuplicate {
         }
 
         char currChar = str.charAt(idx);
-        if(map[currChar-'a']==true){
+        if(map[currChar-'a']=true){
             removeDup(str, idx+1, newStr, map);
         }
         else{
-            map[currChar-'a']==true;
+            map[currChar-'a']=true;
             removeDup(str, idx+1, newStr.append(currChar), map);
         }
     }
