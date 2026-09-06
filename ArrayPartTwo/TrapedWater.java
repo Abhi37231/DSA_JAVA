@@ -21,14 +21,14 @@ public class TrapedWater {
         int trapedwater = 0;
         for(int i=0;i<n;i++){
             int waterHight = Math.min(leftMax[i],rightMax[i]);
-            trapedwater += waterHight - hight[i];
+            trapedwater = trapedwater + waterHight - hight[i];
         }
         return trapedwater;
 
         
     }
     public static void main(String[] args) {
-        int hight[] = {4,2,0,6,3,2,5};
+        int hight[] = {1,1};
         System.out.println("Total traped water: " + trapedWater(hight));
 
     }

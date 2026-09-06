@@ -21,7 +21,7 @@ public class GoldenBatchProb {
 
                 }
                 if( i + j== endCol){
-
+ 
                     if (i != j){
                         secSum += matrix[i][j];
                     }
@@ -43,7 +43,10 @@ public class GoldenBatchProb {
             for (int j=0;j<matrix.length;j++){
                 matrix[i][j]=sc.nextInt();
             }
+
+
         }
+        
         digonal(matrix);
     }
 }
